@@ -1,16 +1,50 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Activity 6: Modularize</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <h1>Activity 6: Modularize</h1>
-    <p>Repeating code is not a good approach. Now we will take the static site we made in DOR and make that every common area stay in a different document so it can be loaded from the page.</p>
-    <p>Take menu, foot, etc. and place it in different files. in the pages add the necesary code lo load this areas in the html.</p>
-  </body>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Everest ¡un mundo por descubrir!</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+    </style>
+
+    <!-- Load header, content and footer -->
+    <script src="set-content.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <div id="header-loaded"></div>
+
+    <!-- Content -->
+    <div id="index-content-loaded"></div>
+
+    <!-- Footer -->
+    <div id="footer-loaded"></div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

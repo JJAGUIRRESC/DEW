@@ -1,0 +1,30 @@
+/* TABLE HEAD */
+th {
+    border: 2px solid black;
+    background-color: lightgray;
+}
+
+th:nth-child(1){
+    width: 80px;
+}
+
+th:nth-child(2){
+    width: 340px;
+}
+
+th:nth-child(3){
+    width: 140px;
+}
+
+/* TABLE BODY */
+td {
+    border: 1px solid black;
+}
+
+tr:nth-child(odd){
+    background-color: skyblue;
+}
+
+tr:nth-child(even){
+    background-color: aliceblue;
+}

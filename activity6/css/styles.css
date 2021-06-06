@@ -1,0 +1,163 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    color:black;
+}
+
+h2 {
+    margin: 3rem;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #2E496B;
+    border-color:#2E496B;
+}
+
+.btn-primary:hover {
+    background-color: #9CB2CE;
+    border-color:#9CB2CE;
+}
+
+/* Navbar */
+.navbar {
+    padding: 0.2rem 2rem;
+    background-color: white;
+    border-bottom: 1px solid #c9d7e8;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    text-align: center;
+    color: #2E496B;
+    font-weight: 900;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+    background-color: #2E496B;
+    border-radius: 3px;
+}
+
+@media (min-width: 1300px){
+    .navbar-light .navbar-nav .nav-link {
+        padding-left: 4rem;
+        padding-right: 4rem;
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 1299px){
+    .navbar-light .navbar-nav .nav-link {
+        padding-left: 1.3rem;
+        padding-right: 0.5rem;
+        font-size: 1.3em;
+    }
+}
+
+#navbarToggler {
+    justify-content:flex-end;
+}
+
+.navbar-brand .img-fluid {
+    max-width: 450px;
+}
+
+@media (max-width: 900px){
+    .navbar-brand .img-fluid {
+        max-width: 250px;
+    }
+}
+
+/* Text block Home */
+#text-block-evt {
+    background-color: #c9d7e8;
+    padding:0.5rem 4rem 4rem 4rem;
+    margin-top:1.5rem;
+    max-width: 1600px;
+}
+
+#text-block-evt h2{
+    width: 100%;
+    text-align: center;
+}
+
+/* Featured climbers */
+.card-footer {
+    background-color: transparent;
+    border-top: none;
+    padding-top: none;
+    padding-bottom: 1.5em;
+}
+
+#featured-climbers{
+    background-color: #c9d7e8;
+    padding:0.5rem 3rem 3rem 3rem;
+    margin-top:1.5rem;
+    margin-bottom: 1.5rem;
+    max-width: 1600px;
+    justify-content: center;
+}
+
+/* Contact form */
+#contact-form{
+    max-width: 900px;
+    background-color: #c9d7e8;
+    padding:1.5rem;
+    border-radius: 10px;
+}
+
+.form-check{
+    line-height: 1.4;
+}
+
+#btn-contact{
+    margin-top:0.6rem;
+}
+
+.input-group-text{
+    background-color:#ecf2f9 ;
+}
+
+#container-contact-form {
+    background:#2E496B;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+/* Routes */
+#container-route-everest {
+    padding: 1.5rem;
+}
+
+#route-everest {
+    max-width: 1600px;
+    background-color: #c9d7e8;
+    border-radius: 5px;
+    padding: 1.5rem;
+}
+
+#route-everest .img-fluid{
+    border-radius: 5px;
+}
+
+/* Icons */
+.fa {
+    color: black;
+}
+
+#social-media-icons .fa:hover {
+    color: #ecf2f9;
+}
+
+/* Footer */
+.footer-evt{
+    background-color: #c9d7e8;
+    padding-top: 0.6em;
+}
+
+/* Desktop version */
+@media (min-width:1281px){
+    
+    /* Featured climbers */
+    #featured-climbers {
+        padding: 0.5rem 4rem 4rem 4rem;
+    }
+}

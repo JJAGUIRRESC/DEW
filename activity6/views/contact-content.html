@@ -1,0 +1,48 @@
+<!-- Contact form -->
+<div id="container-contact-form">
+    <form id="contact-form" class="container">
+        <div class="form-group">
+            <label for="inputName">Nombre</label>
+            <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+        </div>
+        <div class="form-group">
+            <label for="inputUsername">Usuario (opcional)</label>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">@</div>
+                </div>
+                <input type="text" class="form-control" id="inputUsername" placeholder="Usuario">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputSelect">Nivel de escalador</label>
+            <select class="form-control" id="inputSelect">
+                <option>Nunca he escalado</option>
+                <option>Principiante</option>
+                <option>Intermedio</option>
+                <option>Profesional</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="inputEmail">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu dirección de correo
+                electrónico
+                con
+                nadie.</small>
+        </div>
+        <div class="form-group">
+            <label for="inputTextArea">Motivo del contacto</label>
+            <textarea class="form-control" id="inputTextArea" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="inputFile">Adjuntar imagen (opcional)</label>
+            <input type="file" class="form-control-file" id="inputFile">
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="inputCheck">
+            <label class="form-check-label" for="inputCheck">Entiendo que mis datos nunca serán almacenados.</label>
+        </div>
+        <button type="submit" id="btn-contact" class="btn btn-primary">Enviar</button>
+    </form>
+</div>
